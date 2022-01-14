@@ -24,7 +24,7 @@ if(isset($_GET['errcode'])){
     if($_GET['errcode']==1){
         echo '<span style="color: red;">Invalid nama atau password.</span>';
     }elseif($_GET['errcode']==2){
-        echo '<span style="color: red;">Please login.</span>';
+        echo '<span style="color: red;">Please login</span>';
     }
 }
 
