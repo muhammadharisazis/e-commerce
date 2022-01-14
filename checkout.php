@@ -202,7 +202,7 @@ header .hi{
     border: none;
     border-radius: 20px;
     text-align: center;
-    transition-duration: 0.5s; 
+    transition-duration: .5s; 
     padding: 8px 30px;
     cursor: pointer;
     color: #000;
