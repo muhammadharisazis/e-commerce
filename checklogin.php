@@ -21,7 +21,7 @@ if(isset($_POST['username'])&&isset($_POST['pwd'])){
         header("Location:index.php");
         
     }else{
-        echo '<span style="color: red;">Login Fail</span>';
+        echo '<span style="color: red;">Login</span>';
         header("Location:login.php?errcode=1");
     }
      
